@@ -1,36 +1,41 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Page-1" id="FKc38zVMI_eaYd14QCfF">
-    <mxGraphModel>
+    <mxGraphModel dx="1101" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="464" y="8" width="186" height="124" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="Assistant" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="226" y="8" width="189" height="124" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="8" y="8" width="168" height="124" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="User Actions" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="33" y="43" width="118" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="Process Actions" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="251" y="43" width="139" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="System Actions" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="489" y="43" width="136" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="zV6ViGulXo9WaclpXJsy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="zV6ViGulXo9WaclpXJsy-9" target="zV6ViGulXo9WaclpXJsy-11">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="700" y="40" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="6" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+        <mxCell id="zV6ViGulXo9WaclpXJsy-9" value="Nube Bynder" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.multimedia;" vertex="1" parent="1">
+          <mxGeometry x="670" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zV6ViGulXo9WaclpXJsy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="zV6ViGulXo9WaclpXJsy-10" target="zV6ViGulXo9WaclpXJsy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zV6ViGulXo9WaclpXJsy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zV6ViGulXo9WaclpXJsy-10" target="zV6ViGulXo9WaclpXJsy-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zV6ViGulXo9WaclpXJsy-10" value="API (WH)" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="zV6ViGulXo9WaclpXJsy-11" value="Seguridad (firma mensaje)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloud_2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="20" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zV6ViGulXo9WaclpXJsy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zV6ViGulXo9WaclpXJsy-9" target="zV6ViGulXo9WaclpXJsy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zV6ViGulXo9WaclpXJsy-13" value="WEBHOOK HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zV6ViGulXo9WaclpXJsy-12">
+          <mxGeometry x="-0.3615" y="-2" relative="1" as="geometry">
+            <mxPoint x="32" y="2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zV6ViGulXo9WaclpXJsy-16" value="DB Bynder" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="180" y="52" width="48" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
